@@ -8,6 +8,8 @@
 	<!-- title -->
 	
 	<title>
+	
+		04 运行实例 | 
 	 
 	Hexo
 	</title>
@@ -229,7 +231,7 @@ var _hmt = _hmt || [];
 							</ul>
 			
 							<ul>
-								<li class="file">
+								<li class="file active">
 									<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/04%20%E8%BF%90%E8%A1%8C%E5%AE%9E%E4%BE%8B/">
 										04 运行实例
 									</a>
@@ -348,242 +350,76 @@ var _hmt = _hmt || [];
 
 	<!-- 引入正文 -->
 	<div id="content">
-		<div id="index">
+		<h1 id="article-title">
+
+	04 运行实例
+</h1>
+<div class="article-meta">
 	
-		<div class="index-li">
-			<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/04%20%E8%BF%90%E8%A1%8C%E5%AE%9E%E4%BE%8B/">
-				<h2 class="index-title">
-					04 运行实例
-				</h2>
-				<div class="index-brief">
-					一、树莓派引脚定义学习如何用树莓派驱动LED灯时需要先了解树莓派管脚GPIO的编码方式，树莓派的管脚编码方式与51单片机的管脚编码有些不一样，在树莓派的GPIO上分为两种编码方式，分别为BCM和wiringPi编码，不同的编码方式在编写程序驱动GPIO时稍有区别，具体编码如下：
+	<span>John Doe</span>
+	<span>2021-10-30 17:35:04</span>
+		<div id="article-categories">
+    
+		<span>Categories：</span>
+            
+    
 
+    
+		<span>Tags：</span>
+            
+    
+		</div>
 
-
-二、蜂鸣器响1
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2021-10-30</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/03%20%E5%AE%89%E8%A3%85OpenCV/">
-				<h2 class="index-title">
-					03 安装OpenCV
-				</h2>
-				<div class="index-brief">
-					一、安装所需要的库和依赖123456789101112sudo pip3 install numpysudo apt-get install build-essential git cmake pkg-config -ysudo apt-get install libjpeg8-dev -ysudo
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2021-10-30</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/02%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/">
-				<h2 class="index-title">
-					02 环境搭建
-				</h2>
-				<div class="index-brief">
-					一、 修改启动参数1、打开22号ssh端口
-在boot目录建立ssh空文件，不需要任何后缀名
-
-
-2、配置WIFI
-在boot目录建立wpa_supplicant.conf内容如下（WiFi账号密码改为自己的）：
-
-123456789country=CNctrl_interface=DIR=/var
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2021-10-30</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/01.%E9%95%9C%E5%83%8F%E7%83%A7%E5%BD%95/">
-				<h2 class="index-title">
-					01.镜像烧录
-				</h2>
-				<div class="index-brief">
-					一、安装balenaEtcher烧录工具
-下载链接：https://www.balena.io/etcher/
-
-
-二、烧录镜像文件
-
-
-
-三、烧录镜像成功
-
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2021-10-30</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/%E9%97%AE%E9%A2%98/">
-				<h2 class="index-title">
-					问题
-				</h2>
-				<div class="index-brief">
-					1.gpio readall查看不了12345678910111213pi@raspberrypi:~ $ gpio -vgpio version: 2.50Copyright (c) 2012-2018 Gordon HendersonThis is free software with ABSO
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2021-10-30</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/08%2057%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA/">
-				<h2 class="index-title">
-					08 57步进电机
-				</h2>
-				<div class="index-brief">
-					步进电机与普通的直流电机的显著区别在于:
-
-步进电机的速度仅仅取决于输入脉冲的频率(在非超载情况下)，与负载无关；
-
-步进电机能够精确地控制转动的角度或位移，而且能够瞬间启动，立马停止；
-
- 步进电机的核心原理是电磁感应，精确控制的根本原因在于分是供电，多相时序，只要能保证每一次供电的电流的大小稳定
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2021-10-30</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/07%20RPi.GPIO.%E6%A8%A1%E5%9D%97%E4%BD%BF%E7%94%A8%E5%9F%BA%E7%A1%80/">
-				<h2 class="index-title">
-					07 RPi.GPIO.模块使用基础
-				</h2>
-				<div class="index-brief">
-					1.RPi.GPIO 模块使用基础导入模块导入 RPi.GPIO 模块：
-1import RPi.GPIO as GPIO
-
-通过该操作，您可以将模块名称映射为 GPIO，以便接下来您其它脚本进行使用。
-导入模块并检查它是否导入成功，可以尝试：
-1234try:    import RPi.GPIO
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2021-10-30</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/06%20%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E6%8E%A7%E5%88%B6%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%EF%BC%88L298N%EF%BC%89/">
-				<h2 class="index-title">
-					06 用树莓派控制直流电机（L298N）
-				</h2>
-				<div class="index-brief">
-					
-直流电机的基本知识。
-
-L298N双H桥直流电机驱动模块相关知识。
-
-如何控制直流电机的转向和转速。
-
-一个小型直流电机。
-
-一个可以为小型直流电机供电的电源，为便于后续的实验，我们这里使用一个3V-24V的直流可调电源。
-
-一个L298N直流电机驱动模块。
-
-
-1.直流电机直流电机是一种将直流电
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2021-10-30</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/05%20%E5%A5%BD%E7%8E%A9%E7%9A%84/">
-				<h2 class="index-title">
-					05 好玩的
-				</h2>
-				<div class="index-brief">
-					1.PWM12345678910111213141516171819202122import RPi.GPIO as GPIO                 # 引入GPIO模块if __name__ == &#x27;__main__&#x27;:    LedPin = 19    freq 
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2021-10-30</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/2021/10/30/03%20%E5%89%8D%E7%AB%AF/JavaScript%20%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%80%BC/">
-				<h2 class="index-title">
-					JavaScript 深入了解基本类型和引用类型的值
-				</h2>
-				<div class="index-brief">
-					JavaScript 深入了解基本类型和引用类型的值一个变量可以存放两种类型的值，基本类型的值（primitive values）和引用类型的值（reference values）。
-ES6 引入了一种新的原始数据类型 Symbol，表示独一无二的值。它是 JavaScript 语言的第七种数据类型
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2021-10-30</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-	
-	<div id="index-paginator">
-		
-			<span class="page-number current">1</span><a class="page-number" href="/archives/page/2/">2</a><a class="page-number" href="/archives/page/3/">3</a><a class="extend next" rel="next" href="/archives/page/2/">&gt;</a>
-		
-	</div>
 </div>
 
+<div id="article-content">
+	<h1 id="一、树莓派引脚定义"><a href="#一、树莓派引脚定义" class="headerlink" title="一、树莓派引脚定义"></a>一、树莓派引脚定义</h1><p>学习如何用树莓派驱动LED灯时需要先了解树莓派管脚GPIO的编码方式，树莓派的管脚编码方式与51单片机的管脚编码有些不一样，在树莓派的GPIO上分为<strong>两种编码方式</strong>，分别为<strong>BCM</strong>和<strong>wiringPi编码</strong>，不同的编码方式在编写程序驱动GPIO时稍有区别，具体编码如下：</p>
+<p><img src="https://i.loli.net/2020/12/19/EQvngLhCGaoP7Dk.png" alt="image-20201027185041036"></p>
+<p><img src="https://i.loli.net/2020/12/19/BhRGtWprT3yYZ6m.png" alt="image-20201027193659980"></p>
+<p><img src="https://i.loli.net/2020/12/19/bqijf82TmUxknwG.png" alt="image-20201027193715459"></p>
+<h1 id="二、蜂鸣器响"><a href="#二、蜂鸣器响" class="headerlink" title="二、蜂鸣器响"></a>二、蜂鸣器响</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> RPi.GPIO <span class="keyword">as</span> GPIO                <span class="comment"># 引入GPIO模块</span></span><br><span class="line"><span class="keyword">from</span> time <span class="keyword">import</span> sleep                     <span class="comment"># 引入time模块</span></span><br><span class="line">GPIO.setmode(GPIO.BCM)            <span class="comment"># 使用BCM编号方式</span></span><br><span class="line">GPIO.setup(<span class="number">18</span>,GPIO.OUT)            <span class="comment"># 将GPIO19设置为输出模式</span></span><br><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:                                     <span class="comment"># 无限循环  </span></span><br><span class="line">    GPIO.output(<span class="number">18</span>,GPIO.HIGH)   <span class="comment"># 将GPIO19设置为高电平，点亮LED  </span></span><br><span class="line">    sleep(<span class="number">1</span>)                                    <span class="comment"># 等待1秒钟 </span></span><br><span class="line">    GPIO.output(<span class="number">18</span>,GPIO.LOW)  <span class="comment"># 将GPIO19设置为低电平，熄灭LED </span></span><br><span class="line">    sleep(<span class="number">1</span>)                              <span class="comment"># 等待0.5秒钟 </span></span><br><span class="line"><span class="built_in">input</span>()                                      <span class="comment"># 按下任意键退出</span></span><br><span class="line">GPIO.cleanup()                     <span class="comment"># 清理释放GPIO资源，将GPIO复位 </span></span><br></pre></td></tr></table></figure>
+
+
+</div>
+
+
+    <div class="post-guide">
+        <div class="item left">
+            
+        </div>
+        <div class="item right">
+            
+              <a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/03%20%E5%AE%89%E8%A3%85OpenCV/">
+                03 安装OpenCV
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
+            
+        </div>
+    </div>
+
+
+
+	<div id="vcomments"></div>
+
+
+<script>
+	
+		// 评论
+		new Valine({
+			av: AV,
+			el: '#vcomments',
+			notify: false,
+			verify: false,
+			path: window.location.pathname,
+			appId: '',
+			appKey: '',
+			placeholder: '请输入评论',
+			avatar: 'retro',
+			recordIP: false
+		})
+	
+	
+</script>
 	</div>
 	<div id="footer">
 	<p>

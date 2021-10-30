@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	
+	<!-- title -->
+	
+	<title>
+	
+		02 环境搭建 | 
+	 
+	Hexo
+	</title>
+	
+	<!-- keywords,description -->
+	 
+
+	<!-- favicon -->
+	
+	<link rel="shortcut icon" href="/favicon.ico">
+	
+
+
+	<!-- search -->
+	<script>
+		var searchEngine = "https://www.google.com/search?q=";
+		if(typeof searchEngine == "undefined" || searchEngine == null || searchEngine == ""){
+			searchEngine = "https://www.google.com/search?q=";
+		}
+		var homeHost = "wujun234.github.io";
+		if(typeof homeHost == "undefined" || homeHost == null || homeHost == ""){
+			homeHost = window.location.host;
+		}
+	</script>
+
+
+	
+<link rel="stylesheet" href="/css/main.css">
+
+	
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/styles/darcula.min.css">
+
+	
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+
+	
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+	
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+	
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/highlight.min.js"></script>
+
+	
+<script src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
+
+	
+<script src="/js/main.js"></script>
+
+	
+		
+<script src="https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
+
+		
+<script src="https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js"></script>
+
+	
+	
+		<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+	<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3efe99c287df5a1d6f0d02d187e403c1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<header id="header">
+    <a id="title" href="/" class="logo">Hexo</a>
+
+	<ul id="menu">
+		<li class="menu-item">
+			<a href="/about" class="menu-item-link">ABOUT</a>
+		</li>
+	
+
+	
+
+		<li class="menu-item">
+			<a href="https://github.com/wujun234/uid-generator-spring-boot-starter" class="menu-item-link" target="_blank">
+				UidGenerator
+			</a>
+		</li>
+		<li class="menu-item">
+			<a href="https://github.com/wujun234" class="menu-item-link" target="_blank">
+				<i class="fa fa-github fa-2x"></i>
+			</a>
+		</li>
+	</ul>
+</header>
+
+	
+<div id="sidebar">
+	<button id="sidebar-toggle" class="toggle" ><i class="fa fa-arrow-right " aria-hidden="true"></i></button>
+	
+	<div id="site-toc">
+		<input id="search-input" class="search-input" type="search" placeholder="按回车全站搜索">
+		<div id="tree">
+			
+
+			
+							<ul>
+								<li class="directory">
+									<a href="#" class="directory">
+										<i class="fa fa-plus-square-o"></i>
+										01 数据机构与算法
+									</a>
+									
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/01%20%E6%95%B0%E6%8D%AE%E6%9C%BA%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/00-%E4%BB%8B%E7%BB%8D/">
+										00-介绍
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/01%20%E6%95%B0%E6%8D%AE%E6%9C%BA%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/01-%E7%BA%BF%E6%80%A7%E8%A1%A8/">
+										01-线性表
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/01%20%E6%95%B0%E6%8D%AE%E6%9C%BA%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/02-%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/">
+										02-栈和队列
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/01%20%E6%95%B0%E6%8D%AE%E6%9C%BA%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/03-%E4%B8%B2/">
+										03-串
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/01%20%E6%95%B0%E6%8D%AE%E6%9C%BA%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/04-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86%E5%92%8C%E7%BA%BF%E7%B4%A2%E4%BA%8C%E5%8F%89%E6%A0%91/">
+										04-二叉树的遍历和线索二叉树
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/01%20%E6%95%B0%E6%8D%AE%E6%9C%BA%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/05-%E6%8E%92%E5%BA%8F/">
+										05-排序
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/01%20%E6%95%B0%E6%8D%AE%E6%9C%BA%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%BA%90%E7%A0%81/">
+										数据结构源码
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+								</li>
+								
+							</ul>
+			
+							<ul>
+								<li class="directory">
+									<a href="#" class="directory">
+										<i class="fa fa-plus-square-o"></i>
+										02 树莓派
+									</a>
+									
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/01.%E9%95%9C%E5%83%8F%E7%83%A7%E5%BD%95/">
+										01.镜像烧录
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file active">
+									<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/02%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/">
+										02 环境搭建
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/03%20%E5%AE%89%E8%A3%85OpenCV/">
+										03 安装OpenCV
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/04%20%E8%BF%90%E8%A1%8C%E5%AE%9E%E4%BE%8B/">
+										04 运行实例
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/05%20%E5%A5%BD%E7%8E%A9%E7%9A%84/">
+										05 好玩的
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/06%20%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E6%8E%A7%E5%88%B6%E7%9B%B4%E6%B5%81%E7%94%B5%E6%9C%BA%EF%BC%88L298N%EF%BC%89/">
+										06 用树莓派控制直流电机（L298N）
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/07%20RPi.GPIO.%E6%A8%A1%E5%9D%97%E4%BD%BF%E7%94%A8%E5%9F%BA%E7%A1%80/">
+										07 RPi.GPIO.模块使用基础
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/08%2057%E6%AD%A5%E8%BF%9B%E7%94%B5%E6%9C%BA/">
+										08 57步进电机
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/09%20%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%8F%91%E9%80%81IP%E5%9C%B0%E5%9D%80%E5%88%B0%E9%82%AE%E7%AE%B1/">
+										09 开机自动发送IP地址到邮箱
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/%E9%97%AE%E9%A2%98/">
+										问题
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+								</li>
+								
+							</ul>
+			
+							<ul>
+								<li class="directory">
+									<a href="#" class="directory">
+										<i class="fa fa-plus-square-o"></i>
+										03 前端
+									</a>
+									
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/03%20%E5%89%8D%E7%AB%AF/00%20HTTP%20%E7%8A%B6%E6%80%81%E6%B6%88%E6%81%AF/">
+										00 HTTP 状态消息
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/03%20%E5%89%8D%E7%AB%AF/01%20HTML%E5%85%A5%E9%97%A8%E4%B8%8E%E5%AE%9E%E6%88%98/">
+										01 HTML入门与实战
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/03%20%E5%89%8D%E7%AB%AF/JavaScript%20%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%20%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%20%E7%AE%80%E5%8D%95%E8%B5%8B%E5%80%BC%20%E5%AF%B9%E8%B1%A1%E5%BC%95%E7%94%A8/">
+										JavaScript 基本类型 引用类型 简单赋值 对象引用
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2021/10/30/03%20%E5%89%8D%E7%AB%AF/JavaScript%20%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%80%BC/">
+										JavaScript 深入了解基本类型和引用类型的值
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+								</li>
+								
+							</ul>
+			
+		</div>
+	</div>
+</div>
+
+	<!-- 引入正文 -->
+	<div id="content">
+		<h1 id="article-title">
+
+	02 环境搭建
+</h1>
+<div class="article-meta">
+	
+	<span>John Doe</span>
+	<span>2021-10-30 17:35:03</span>
+		<div id="article-categories">
+    
+		<span>Categories：</span>
+            
+    
+
+    
+		<span>Tags：</span>
+            
+    
+		</div>
+
+</div>
+
+<div id="article-content">
+	<h1 id="一、-修改启动参数"><a href="#一、-修改启动参数" class="headerlink" title="一、 修改启动参数"></a>一、 修改启动参数</h1><h2 id="1、打开22号ssh端口"><a href="#1、打开22号ssh端口" class="headerlink" title="1、打开22号ssh端口"></a>1、打开22号ssh端口</h2><blockquote>
+<p>在boot目录建立ssh空文件，不需要任何后缀名</p>
+</blockquote>
+<p><img src="https://i.loli.net/2020/12/19/lPsBZFKAov4OJ8f.png" alt="image-20201025213600034"></p>
+<h2 id="2、配置WIFI"><a href="#2、配置WIFI" class="headerlink" title="2、配置WIFI"></a>2、配置WIFI</h2><blockquote>
+<p>在boot目录建立wpa_supplicant.conf内容如下（WiFi账号密码改为自己的）：</p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">country=CN</span><br><span class="line">ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev</span><br><span class="line">update_config=<span class="number">1</span></span><br><span class="line">network=&#123;</span><br><span class="line">	ssid=<span class="string">&quot;hw1311&quot;</span></span><br><span class="line">	psk=<span class="string">&quot;13111311&quot;</span></span><br><span class="line">	key_mgmt=WPA-PSK</span><br><span class="line">	priority=<span class="number">1</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="二、连接树莓派"><a href="#二、连接树莓派" class="headerlink" title="二、连接树莓派"></a>二、连接树莓派</h1><h2 id="1、通过ssh连接树莓派"><a href="#1、通过ssh连接树莓派" class="headerlink" title="1、通过ssh连接树莓派"></a>1、通过ssh连接树莓派</h2><blockquote>
+<p>打开命令行，输入<strong>ssh <a href="mailto:&#x70;&#105;&#x40;&#x72;&#x61;&#x73;&#112;&#x62;&#x65;&#x72;&#114;&#x79;&#x70;&#105;&#x2e;&#x6c;&#111;&#99;&#x61;&#x6c;">&#x70;&#105;&#x40;&#x72;&#x61;&#x73;&#112;&#x62;&#x65;&#x72;&#114;&#x79;&#x70;&#105;&#x2e;&#x6c;&#111;&#99;&#x61;&#x6c;</a></strong></p>
+</blockquote>
+<p>若出现报错，上传用户文件夹.ssh文件夹里面文件，再次登录</p>
+<p><img src="https://i.loli.net/2020/12/19/kjeKxhu3dTJLWX7.png" alt="image-20201025214255208"></p>
+<p><img src="https://i.loli.net/2020/12/19/H948WAqePTOS5Xz.png" alt="image-20201025214311586"></p>
+<p><img src="https://i.loli.net/2020/12/19/s5GjY6rdTXlA3Mv.png" alt="image-20201025214715729"></p>
+<h2 id="2、通过VNC远程访问"><a href="#2、通过VNC远程访问" class="headerlink" title="2、通过VNC远程访问"></a>2、通过VNC远程访问</h2><blockquote>
+<p>电脑安装VNC：<a target="_blank" rel="noopener" href="https://www.realvnc.com/en/connect/download/viewer/">https://www.realvnc.com/en/connect/download/viewer/</a></p>
+</blockquote>
+<p>树莓派并不需要你为她配备单独的显示器、键盘和鼠标，你可以设置VNC或SSH，通过你平时常用的电脑来远程访问树莓派。</p>
+<p>Raspbian系统安装后默认带有VNC和SSH软件包（除非你在官网选择下载的是最小安装包），你只需要把VNC和SSH服务打开就可以了。</p>
+<blockquote>
+<p>咱们的默认账户是：pi</p>
+<p>pi账户的默认密码是：raspberry</p>
+</blockquote>
+<ul>
+<li>启用VNC和SSH服务</li>
+</ul>
+<p>还是打开LX终端，在命令提示符后键入如下命令，然后按回车键：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo raspi-config</span><br></pre></td></tr></table></figure>
+
+<p>你将打开树莓派的软件配置工具。</p>
+<p><img src="https://i.loli.net/2020/12/19/JrnbRuW8HZKGsYN.png" alt="image-20201025215441969"></p>
+<p>使用上下方向键选择 5 Interfacing Option，按回车键进入接口配置。</p>
+<p><img src="https://i.loli.net/2020/12/19/blXH72SDTVa8hf6.png" alt="image-20201025215527917"></p>
+<p>在这里你可以看到 P2 SSH 和 P3 VNC，二者的启用方法相同，下面以VNC为例介绍启用操作步骤。</p>
+<p>使用上下方向键选择P3 VNC，按回车键进入 VNC配置。</p>
+<p><img src="https://i.loli.net/2020/12/19/gJ8ryzdkRmDIGFQ.png" alt="image-20201025215610796"></p>
+<p>使用左右方向键选择&lt;是&gt;，按回车键，系统提示VNC服务已启动。</p>
+<p><img src="https://i.loli.net/2020/12/19/BFvbxi2kCTuGI3h.png" alt="image-20201025215654238"></p>
+<p>按回车键&lt;确定&gt;，回到配置工具主界面，通过 Tab 键选中右下角的<Finish>，按回车即可完成VNC服务的打开。</p>
+<p><img src="https://i.loli.net/2020/12/19/3NoiLP4rf1sdej9.png" alt="image-20201025215755506"></p>
+<p>最后不要忘了要查看树莓派的IP地址，在终端里输入 ifconfig 命令，按回车键后你将看到树莓派的IP地址。</p>
+<p><img src="https://i.loli.net/2020/12/19/6i1UGRwHQmV5hat.png" alt="image-20201025215842212"></p>
+<ul>
+<li><strong>使用VNC远程访问树莓派</strong></li>
+</ul>
+<p><img src="https://i.loli.net/2020/12/19/iL1wpTntHNrKW7l.png" alt="image-20201025220051910"></p>
+<ul>
+<li>出现这种情况</li>
+</ul>
+<p><img src="https://i.loli.net/2020/12/19/GdgwDtUqFHE3vkA.png" alt="image-20201025220702840"></p>
+<p>解决办法：changing the resolution to the highest（更改更高的分辨率即可），ssh下：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo raspi-config</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i.loli.net/2020/12/19/c1rXkOH4fb8DnTo.png" alt="image-20201025220819826"></p>
+<p><img src="https://i.loli.net/2020/12/19/l9ImB2wUfSYhZka.png" alt="image-20201025220837492"></p>
+<p><img src="https://i.loli.net/2020/12/19/PfXCFtdZLO4Q1KA.png" alt="image-20201025220953102"></p>
+<p>重新用VNC连接</p>
+<p><img src="https://i.loli.net/2020/12/19/7pesuBPzoYtwClH.png" alt="image-20201025221123776"></p>
+<h1 id="三、树莓派初始设置"><a href="#三、树莓派初始设置" class="headerlink" title="三、树莓派初始设置"></a>三、树莓派初始设置</h1><p>初次进入Raspbian，系统会自动弹出欢迎界面（Welcome to Raspberry Pi），也就是树莓派的初始设置引导程序，点击右下角的【Next】按钮，开始进行初始配置。<img src="https://i.loli.net/2020/12/19/o4tMXjGy7FJ96Uu.png" alt="image-20201025221315270"></p>
+<ul>
+<li><strong>设置国家、语言和时区</strong></li>
+</ul>
+<p>你可以依次选择China、Chinese和Shanghai，选择完成后点击【Next】按钮。<img src="https://i.loli.net/2020/12/19/7NtsBGhuiDaV3RC.png" alt="image-20201025221357198"></p>
+<ul>
+<li><strong>设置账户密码</strong></li>
+</ul>
+<p>Raspbian默认用户名为“pi”（不带引号），默认密码为“raspberry”（不带引号），为了安全起见，系统强烈建议你修改密码为一个只有你自己知道的密码，当然你千万不要把自己设置的密码忘了。录入完新的密码，点击【Next】按钮。<img src="https://i.loli.net/2020/12/19/yJPsmZejUxNvtgM.png" alt="image-20201025221437477"></p>
+<ul>
+<li><strong>设置WiFI网络</strong></li>
+</ul>
+<p>选择你的WiFi热点，然后点击【Next】按钮，在接下来弹出的窗口中输入你的WiFi密码，随后点击【Next】按钮。<img src="https://i.loli.net/2020/12/19/5IuRtLXfzCBnNxc.png" alt="image-20201025221547544"></p>
+<ul>
+<li><strong>软件升级</strong></li>
+</ul>
+<p>WiFi连接成功后，系统会提示你进行软件升级，你可以点击【Next】按钮进行升级，也可以点击【Skip】按钮跳过升级。升级需要较长时间，因此本文先跳过升级，日后再通过包管理工具来升级。<img src="https://i.loli.net/2020/12/19/fAXplQIqGTh86MH.png" alt="image-20201025221627595"></p>
+<ul>
+<li><strong>重新启动</strong></li>
+</ul>
+<p>最后就是完成了上述全部设置，系统提示设置完成，点击【Restart】按钮重新启动系统。<img src="https://i.loli.net/2020/12/19/Q7yKu8Mibc4A1En.png" alt="image-20201025221654070"></p>
+<h1 id="四、配置静态IP"><a href="#四、配置静态IP" class="headerlink" title="四、配置静态IP"></a>四、配置静态IP</h1><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//设置静态IP  加在文件后面</span></span><br><span class="line">sudo nano /etc/dhcpcd.conf</span><br><span class="line">    </span><br><span class="line">interface wlan0</span><br><span class="line"><span class="keyword">static</span> ip_address=<span class="number">172.16</span><span class="number">.47</span><span class="number">.86</span>/<span class="number">24</span></span><br><span class="line"><span class="keyword">static</span> routers=<span class="number">172.16</span><span class="number">.47</span><span class="number">.1</span></span><br><span class="line"><span class="keyword">static</span> domain_name_servers=<span class="number">218.196</span><span class="number">.40</span><span class="number">.9</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="五、换源"><a href="#五、换源" class="headerlink" title="五、换源"></a>五、换源</h1><blockquote>
+<p><a target="_blank" rel="noopener" href="https://mirrors.tuna.tsinghua.edu.cn/help/raspbian/">https://mirrors.tuna.tsinghua.edu.cn/help/raspbian/</a></p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 编辑 `/etc/apt/sources.<span class="built_in">list</span>` 文件，删除原文件所有内容，用以下内容取代：</span><br><span class="line">deb http:<span class="comment">//mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib rpi</span></span><br><span class="line">deb-src http:<span class="comment">//mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib rpi</span></span><br><span class="line"></span><br><span class="line"># 编辑 `/etc/apt/sources.<span class="built_in">list</span>.d/raspi.<span class="built_in">list</span>` 文件，删除原文件所有内容，用以下内容取代：</span><br><span class="line">deb http:<span class="comment">//mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui</span></span><br></pre></td></tr></table></figure>
+
+
+</div>
+
+
+    <div class="post-guide">
+        <div class="item left">
+            
+              <a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/03%20%E5%AE%89%E8%A3%85OpenCV/">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                  03 安装OpenCV
+              </a>
+            
+        </div>
+        <div class="item right">
+            
+              <a href="/2021/10/30/02%20%E6%A0%91%E8%8E%93%E6%B4%BE/01.%E9%95%9C%E5%83%8F%E7%83%A7%E5%BD%95/">
+                01.镜像烧录
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+              </a>
+            
+        </div>
+    </div>
+
+
+
+	<div id="vcomments"></div>
+
+
+<script>
+	
+		// 评论
+		new Valine({
+			av: AV,
+			el: '#vcomments',
+			notify: false,
+			verify: false,
+			path: window.location.pathname,
+			appId: '',
+			appKey: '',
+			placeholder: '请输入评论',
+			avatar: 'retro',
+			recordIP: false
+		})
+	
+	
+</script>
+	</div>
+	<div id="footer">
+	<p>
+	©2019-<span id="footerYear"></span> 
+	<a href="/">John Doe</a> 
+	
+	
+		|
+		<span id="busuanzi_container_site_pv">
+			pv
+			<span id="busuanzi_value_site_pv"></span>
+		</span>
+		|
+		<span id="busuanzi_container_site_uv"> 
+			uv
+			<span id="busuanzi_value_site_uv"></span>
+		</span>
+	
+	<br>
+	Theme <a href="//github.com/wujun234/hexo-theme-tree" target="_blank">Tree</a>
+	by <a href="//github.com/wujun234" target="_blank">WuJun</a>
+	Powered by <a href="//hexo.io" target="_blank">Hexo</a>
+	</p>
+</div>
+<script type="text/javascript"> 
+	document.getElementById('footerYear').innerHTML = new Date().getFullYear() + '';
+</script>
+	<button id="totop-toggle" class="toggle"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
+</body>
+</html>
